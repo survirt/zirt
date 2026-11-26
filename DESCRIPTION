@@ -1,0 +1,25 @@
+Package: zirt
+Title: Zero-Inflated and Hurdle Item Response Models for Scales with
+    Filter Questions
+Version: 0.1.0
+Authors@R: person("Anonymous", "Author", email = "anonymous@example.org",
+    role = c("aut", "cre"))
+Description: Marginal maximum likelihood estimation of item response models
+    for scales in which most respondents report no symptoms or problems.
+    Fits the graded response model, the zero-inflated mixture graded response
+    model with a class of structural zeros, and the multidimensional hurdle
+    graded response model that separates susceptibility from severity.
+    Handles scale-level filter questions, sampling weights and stratified
+    cluster designs, and provides model comparison, scoring with posterior
+    probabilities of structural zeros, expected score distributions and a
+    data generator.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: stats, graphics, utils
+Suggests: testthat (>= 3.0.0), mirt
+Config/testthat/edition: 3
+Roxygen: list(markdown = FALSE)
+Config/roxygen2/version: 8.1.1
+URL: https://github.com/survirt/zirt
+BugReports: https://github.com/survirt/zirt/issues
